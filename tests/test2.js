@@ -5,10 +5,10 @@
 const CloudflareBypasser = require('../');
 const helpers = require('../lib/helpers');
 
-const URL = 'https://market.csgo.com/';
+const URL = 'http://blueamigo.co.uk';
 
 let cloudflare = new CloudflareBypasser({
-  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  userAgent: 'Mozilla/5.0 (Linux; Android 10; CPH2185) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Mobile Safari/537.36',
   headers: {
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
     // 'accept-encoding': 'gzip, deflate, br',
